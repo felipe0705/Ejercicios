@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+    <link rel="stylesheet" href="style.css">
     <title>Calculadora de IMC</title>
 </head>
 <body>
@@ -19,6 +19,8 @@
         <input type="text" id="resultado" readonly>
     </form>
 <!-- ejercicio 2 -->
+
+
     <h1>Conversor de Divisas</h1>
     <form>
         <label for="usd">USD: </label>
@@ -26,6 +28,14 @@
         <label for="cop">COP: </label>
         <input type="number" id="cop" value="4.000" required><br>
     </form>
+    <br>
+<br><br>
+    <div id="contenedorNotas">
+        <input id="titulo" type="text" placeholder="Título de la nota">
+        <textarea id="texto" placeholder="Texto de la nota"></textarea>
+        <button onClick="guardarNota()">Guardar Nota</button>
+        <button onClick="limpiarCampos()">Limpiar Campos</button>
+    </div>
     <script src="ejercicios.js"></script>
 </body>
 </html>
