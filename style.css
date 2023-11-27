@@ -1,33 +1,7 @@
-#contenedorNotas {
-    font-family: Arial, sans-serif;
-  }
-  .nota {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-  }
-  .nota h2 {
-    margin-top: 0;
-  }
-  .nota p {
-    margin-bottom: 10px;
-  }
-  #titulo, #texto {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
-  button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-  }
-  button:hover {
-    background-color: #0056b3;
-  }
+.clickeable{
+  cursor:pointer;
+}
+
+.descripcionTachada{
+  text-decoration: line-through;
+}
